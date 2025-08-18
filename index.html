@@ -613,7 +613,9 @@
 
     <script>
         function openLoginPage() {
-            window.open("https://agent.xenials.com/no-auth/login", "_self");
+            // window.open("https://agent.xenials.com/no-auth/login", "_self");
+
+            window.top.location.href = "https://agent.xenials.com/no-auth/login";
         }
     </script>
 
